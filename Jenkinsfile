@@ -29,7 +29,7 @@ pipeline {
             }
             steps {
               echo 'deploying'
-                sh 'npm run build'
+                sh 'npm run dev'
             }
         }
     }
